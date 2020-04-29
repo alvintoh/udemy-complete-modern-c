@@ -21,3 +21,4 @@
 *.obj.enc
 *.sqlite
 *.json
+*.map

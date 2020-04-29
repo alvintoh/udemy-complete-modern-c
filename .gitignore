@@ -1,0 +1,23 @@
+// Ignore all PPT files
+*.pptx
+
+// Ignore all Visual Studio Code Project Related Files
+*.tlog
+*.log
+*.sln
+*.db
+*.ipch
+*.suo
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.txt
+*.idb
+*.pdb
+*.obj
+*.exe
+*.ilk
+*.opendb
+*.obj.enc
+*.sqlite
+*.json

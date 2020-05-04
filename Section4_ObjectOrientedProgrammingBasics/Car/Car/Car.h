@@ -8,6 +8,7 @@ private:
 public:
 	Car();
 	Car(float amount);
+	Car(float amount, int pass);
 	~Car();
 	void FillFuel(float amount);
 	void Accelerate();

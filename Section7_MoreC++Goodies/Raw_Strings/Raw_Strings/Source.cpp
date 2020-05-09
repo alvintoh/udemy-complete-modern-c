@@ -13,20 +13,6 @@ std::string Combine(const std::string& first, const std::string& last) {
 	return fullname;
 }
 
-std::string ToUpper(const std::string& str) {
-	std::string Upper;
-	for (int i = 0; i < str.length(); i++)
-		Upper += toupper(str[i]);
-	return Upper;
-}
-
-std::string ToLower(const std::string& str) {
-	std::string Lower;
-	for (int i = 0; i < str.length(); i++)
-		Lower += tolower(str[i]);
-	return Lower;
-}
-
 int main() {
 	//char first[10];
 	//char last[20];
@@ -51,14 +37,6 @@ int main() {
 	
 	//Insert in the database
 	std::cout << fullname << std::endl;
-	
-	//Print toUpper
-	std::string Upper = ToUpper(first);
-	std::cout << Upper << std::endl;
-
-	//Print toLower
-	std::string Lower = ToLower(last);
-	std::cout << Lower << std::endl;
 	
 	return 0;
 }

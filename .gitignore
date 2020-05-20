@@ -1,7 +1,7 @@
-// Ignore all PPT files
+# Ignore all PPT files
 *.pptx
 
-// Ignore all Visual Studio Code Project Related Files
+# Ignore all Visual Studio Code Project Related Files
 *.tlog
 *.log
 *.sln
